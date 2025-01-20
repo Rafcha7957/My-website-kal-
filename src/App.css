@@ -1,0 +1,72 @@
+.img1 {
+  border-radius: 45%;
+  transition: box-shadow 0.5s ease;
+  box-shadow: 0 0 80px rgba(38, 0, 255, 0.7), 0 0 90px rgba(0, 4, 255, 0.5);
+  transition: box-shadow 0.5s ease, transform 0.9s ease;
+  position: relative;
+}
+.cont1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.idk {
+  margin: 40px 0 0 0;
+}
+.img1:hover {
+  box-shadow: 0 0 100px rgb(0, 17, 255), 0 0 100px rgba(4, 0, 255, 0.7);
+  transform: scale(0.9);
+}
+.text{
+  color: white; text-align: center; margin: 30px 0 0 0; font-size: 20px; font-family: 'Courier New', Courier, monospace;
+  transition: transform 0.9s ease;
+}
+.text:hover {
+  transform: scale(0.95);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item {
+  padding: 70px 220px 80px 70px;
+  background-color: #252525;
+  margin-top: 50px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  border: #151515 3px solid;
+  border-radius: 50px;
+  font-size: large;
+  box-shadow: 0 8px 30px rgb(24, 24, 24);
+  transition: transform 1.5s ease, box-shadow 0.3s ease;
+}
+.kol {
+  color: bisque;
+}
+.item:hover {
+  transform: scale(0.95);
+  box-shadow: 0 16px 50px rgb(14, 14, 14);
+}
+.anim {
+  transition: transform 1.5s ease
+}
+.anim:hover {
+  transform: scale(0.9);
+}
+.col{
+  color: #080808;
+}
+.gcc {
+  color: white;
+  text-decoration: none;
+}
+.red {
+  color: rgb(255, 87, 87);
+}
+.green {
+  color: greenyellow;
+}
+.yellow {
+  color: yellow;
+}
