@@ -4,15 +4,13 @@ import App from './App.tsx'
 import './index.css'
 import {
   createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
+  RouterProvider
 } from "react-router-dom";
 import { ErrorPage } from './ErrorPage.tsx';
 import AppEn from './AppEn.tsx';
 import { SkillsEN } from './SkillsEN.tsx';
 import { Skills } from './Skills.tsx';
-import { Projects } from './projects.tsx';
+import { Projects } from './Projects.tsx';
 import { ProjectsEN } from './ProjectsEN.tsx';
 import { DontYet } from './DontYet.tsx';
 
